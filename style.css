@@ -1,0 +1,61 @@
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center; /* Center align text in table columns */
+        }
+        th {
+            cursor: pointer;
+        }
+        tr {
+            border-bottom: 1px solid white;
+        }
+        td:first-child {
+            text-align: left; /* Left align the first column (Image and Name) */
+            padding-left: 20px;
+        }
+        .name-header {
+            text-align: left; /* Left align text in the header for Image and Name */
+            padding-left: 20px;
+        }
+        .name-cell {
+            text-align: center; /* Center align content in image and name cells */
+        }
+
+
+        input {
+            margin: 10px;
+            padding: 10px;
+            width: 700px; /* Increased width of the search bar */
+            border: 2px solid #8E8E8E;
+           
+        
+
+        }
+        button {
+            margin: 10px;
+            padding: 10px; /* Increased padding to increase height */
+            width: 200px; /* Increased width of the buttons */
+            background-color: black;
+            color: aliceblue;
+            border: 2px solid white;
+        }
+        img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        .positive {
+            color: green;
+        }
+        .negative {
+            color: red;
+        }
+    
